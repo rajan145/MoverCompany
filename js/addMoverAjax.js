@@ -1,6 +1,7 @@
 //noinspection JSUnresolvedFunction
 /**
  * Created by rajan on 6/3/2016.
+ * Ajax POST request to Add new Mover
  */
 $(document).ready(function(){
 
