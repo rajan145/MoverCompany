@@ -1,8 +1,9 @@
 <?php
+//to get movers details of the crews
     include("DBConnection.php");
 	$conn = new DBConnection();
 	$connectionObj=$conn->connection();
-	
+	//checked if crewNO is set or not
 	if(isset($_GET)){
 		$crewNo=$_GET['crewNO'];
 		$stmt=$connectionObj->prepare("SELECT m.FirstName,m.LastName,m.MoverPhone FROM movers m, crews c WHERE m.MoverPhone=c.MoverPhone AND c.CrewNo='$crewNo'"); 
