@@ -1,0 +1,55 @@
+#headDiv{
+   background-color: #4C787E;
+    padding: 15px;
+	margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 1px;
+    margin-left: 1px;
+	
+}
+.menuBar{
+	background-color: #4C787E;
+   
+}
+h1,h3.headtxt{
+	font-family:"Comic Sans MS", cursive, sans-serif;
+	color:white;
+}
+p{
+	margin-top: 0px;
+    margin-bottom: -12px;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+form.form {
+ 
+  padding: 20px;
+  max-width: 600px;
+  margin: 20px auto;
+  border-radius: 2px;
+  box-shadow: 0 4px 10px 4px #A9A9A9;
+}
+button.primaryButton{
+	width: 100px;
+	background-color: #4C787E;
+	color: white;
+    padding: 10px 10px;
+	border: none;
+    border-radius: 2px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight:  oblique;
+		
+}
+
+.primaryButton:hover {
+    background-color: #ACB3A1;
+}
+.popover{
+    width:200px;
+    height:250px;    
+}
+a.showItemAnchor:active{
+	background-color: blue;
+}
