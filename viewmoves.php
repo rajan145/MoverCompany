@@ -41,7 +41,7 @@
 		</table>
 		
 		<script>
-		
+		//Ajax GET request to get movers details
 		 $('#movesTable').find('tr').click( function(){
 				var crewNO=$(this).find('td:last').text();
 				$.ajax({
@@ -55,8 +55,6 @@
 		 });	
 		
 		</script>
-		
-		
 	</div>
 	<div class="col-sm-6"> 
 	<div id="crewDetails"></div>
