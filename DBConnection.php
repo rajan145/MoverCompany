@@ -1,10 +1,11 @@
  <?php
+// to make connectuin with Database 
 class DBConnection{
-	
+// Database connection details	
 public $servername = "localhost";
 public $username = "root";
 public $password = "";
-
+//make connection and return connection Object
 function connection(){
 	try {
 		$conn = new PDO("mysql:host=$this->servername;dbname=movercompany", $this->username, $this->password);
