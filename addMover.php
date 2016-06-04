@@ -6,9 +6,9 @@
  * Time: 8:12 PM
  */
 include("DBConnection.php");
- // getting connection Object
  
-	
+ 
+	//createing mover object to add mover into database	
 	$mover = new Movers($_POST["m_Phone"],$_POST["mFname"],$_POST["mLname"]);
 	$mover->addMover($_POST["m_Phone"],$_POST["mFname"],$_POST["mLname"]);
 	
